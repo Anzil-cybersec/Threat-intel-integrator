@@ -1,0 +1,29 @@
+[
+  {
+    "ioc": "185.220.101.30",
+    "type": "ip",
+    "abuse_confidence": 100,
+    "vt_malicious": 14,
+    "total_risk": 114,
+    "country": "Germany",
+    "note": ""
+  },
+  {
+    "ioc": "103.83.216.3",
+    "type": "ip",
+    "abuse_confidence": 0,
+    "vt_malicious": 0,
+    "total_risk": 0,
+    "country": "India",
+    "note": ""
+  },
+  {
+    "ioc": "8.8.8.8",
+    "type": "ip",
+    "abuse_confidence": 0,
+    "vt_malicious": 0,
+    "total_risk": 0,
+    "country": "United States",
+    "note": ""
+  }
+]
