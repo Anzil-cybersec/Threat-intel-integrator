@@ -67,3 +67,7 @@ python3 app.py
 
 Then open your browser and go to:  
 👉 **[http://127.0.0.1:5000](http://127.0.0.1:5000)**
+
+## 🔍 Sample Threat Feed Table Screenshot
+
+![Threat Feed Screenshot](static/screenshot.png)
