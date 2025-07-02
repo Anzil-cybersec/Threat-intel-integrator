@@ -70,4 +70,5 @@ Then open your browser and go to:
 
 #### 🔍 Sample Threat Feed Table Screenshot
 
-![Threat Feed Screenshot](static/screenshot.png)
+![Threat Feed Screenshot](static/Screenshot.png)
+
