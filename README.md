@@ -16,22 +16,54 @@ A simple **Python-Flask tool** to analyze IPs, URLs, and hashes using **VirusTot
 
 ## 🚀 How to Run
 
+### 1. Clone the repo
 ```bash
-# 1. Clone the repo
 git clone https://github.com/Anzil-cybersec/Threat-intel-integrator.git
 cd Threat-intel-integrator
+```
 
-# 2. Create virtual environment
+---
+
+### 2. Create virtual environment
+
+**Linux/macOS:**
+```bash
 python3 -m venv venv
-source venv/bin/activate  # or use venv\Scripts\activate on Windows
+source venv/bin/activate
+```
 
-# 3. Install dependencies
+**Windows:**
+```bash
+python3 -m venv venv
+venv\Scripts\activate
+```
+
+---
+
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# 4. Download GeoLite2 City DB
-# 👉 https://dev.maxmind.com/geoip/geolite2/ (requires free MaxMind account)
-# Save the file in your project folder as: GeoLite2-City.mmdb
+---
 
-# 5. Run the app
-python3 app.py 
-Then open: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+### 4. Download GeoLite2 City DB
+
+Download from 👉 [https://dev.maxmind.com/geoip/geolite2/](https://dev.maxmind.com/geoip/geolite2/)  
+(Requires a free MaxMind account)
+
+Save the downloaded file in the project directory as:
+
+```
+GeoLite2-City.mmdb
+```
+
+---
+
+### 5. Run the app
+```bash
+python3 app.py
+```
+
+Then open your browser and go to:  
+👉 **[http://127.0.0.1:5000](http://127.0.0.1:5000)**
