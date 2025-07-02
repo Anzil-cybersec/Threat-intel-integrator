@@ -10,6 +10,7 @@ h1 {
     font-size: 2em;
     margin-bottom: 30px;
     color: #00bfff;
+    font-weight: bold;
 }
 
 form {
@@ -23,6 +24,8 @@ input[type="text"] {
     border: none;
     outline: none;
     font-size: 16px;
+    background-color: #222;
+    color: #f1f1f1;
 }
 
 button {
@@ -45,6 +48,7 @@ a {
     color: #00bfff;
     text-decoration: none;
     margin: 0 10px;
+    font-size: 14px;
 }
 
 a:hover {
@@ -57,6 +61,7 @@ table {
     border-collapse: collapse;
     margin-top: 30px;
     font-size: 15px;
+    background-color: #1e1e1e;
 }
 
 th, td {
@@ -70,4 +75,44 @@ th {
     color: #f1f1f1;
 }
 
-.low-r
+/* Risk level row backgrounds */
+.low-risk {
+    background-color: #14532d;
+    color: #d1fae5;
+}
+
+.medium-risk {
+    background-color: #78350f;
+    color: #fff7ed;
+}
+
+.high-risk {
+    background-color: #7f1d1d;
+    color: #fee2e2;
+}
+
+.button-group {
+    margin-top: 10px;
+}
+
+.button-group a {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #17a2b8;
+    color: white;
+    border-radius: 4px;
+    margin: 0 5px;
+    transition: background 0.3s;
+}
+
+.button-group a:hover {
+    background-color: #138496;
+}
+
+.clear-btn {
+    background-color: #dc3545;
+}
+
+.clear-btn:hover {
+    background-color: #a71d2a;
+}
