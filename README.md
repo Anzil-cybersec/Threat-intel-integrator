@@ -6,11 +6,11 @@ A simple **Python-Flask tool** to analyze IPs, URLs, and hashes using **VirusTot
 
 ## ⚙️ Features
 
-- Lookup IPs, URLs, and hashes  
-- Country detection for IPs  
-- VirusTotal & AbuseIPDB risk scoring  
-- Color-coded risk levels  
-- Export IOCs to CSV
+- 🔍 Lookup **IPs**, **URLs**, and **hashes**
+- 🌍 Country detection for IPs
+- 🛡️ VirusTotal & AbuseIPDB risk scoring
+- 🟢🟡🔴 Color-coded threat levels
+- 📄 Export IOCs to CSV
 
 ---
 
